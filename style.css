@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Varela', sans-serif;
+    
+}
+
+body{
+    background-color: #FEFAE0;
+   
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #DDA15E;
+}
+
+.logo{
+    font-size: 30px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.nav-links{
+    list-style: none;
+    padding: 5px;
+    display: flex;
+    margin-right: 40px;
+    margin-top: 18px;
+}
+
+.nav-links>li{
+   margin: 15px;
+}
+.nav-links>li>a{
+    font-size: 23px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all, 0.8s;
+    color: black;
+}
+
+.nav-links>li>a:hover{
+    background-color: #BC6C25;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    padding-top: 20px;
+}
+
+.grocerys{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    height: 90px;
+    width: 90px;
+}
+.grocerys>img{
+    height: 70px;
+    width: 80px;
+}
+.grocerys>span{
+    font-weight: bold;
+}
+
+.grocerys:hover{
+    color: rgb(83, 186, 250);
+}
+
+.main-container{
+
+    padding-left: 120px;
+    padding-right: 100px;
+}
+
+.slider{
+    margin-top: 40px;
+
+}
+
+.items{
+    width: 100%;
+    background-color: #FFF;
+    height: 300px;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.offers, .offers2{
+    height: 100%;
+   
+    background-position: 6px bottom;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.offers{
+    background-image: url(images/items/top-offer.webp);
+}
+.offers2{
+    background-image: url("https://rukminim1.flixcart.com/flap/278/278/image/e84ecf024bdc49f4.jpg?q=90");
+}
+
+.heading{
+    margin-top: -60px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.links1{
+    padding: 10px;
+    background-color: rgb(28, 158, 238);
+    color: white;
+}
+
+.mgv,.mgv2{
+    /* margin-top: -250px; */
+    
+    height: 100%;
+    /* margin-left: 400px; */
+    padding-top: 20px;
+}
+.mgv2{
+    width: 86%;
+}
+.mgv{
+    width: 75%;
+}
+
+.item1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    /* text-align: center;  */
+    padding-top: 5px;
+    height: 200px;
+}
+
+.info{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.refurnished img{
+    height: 300px;
+}
+.image-slide{
+    margin-left: 2px;
+    margin-right: 5px;
+}
