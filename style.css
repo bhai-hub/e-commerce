@@ -169,3 +169,20 @@ nav{
     margin-left: 2px;
     margin-right: 5px;
 }
+
+.events{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.event-image{
+    margin-right: 50px;
+    height: 120%;
+    width: 30%;
+}
+
+.event-image img{
+    height: 293px;
+    width: 547px;
+}
